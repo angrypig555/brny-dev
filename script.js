@@ -1,6 +1,8 @@
 const user = 'angrypig555';
 const repo = 'brny-dev';
 
+console.log("hi, thanks for visiting this amazing site")
+
 fetch(`https://api.github.com/repos/${user}/${repo}/commits/main`)
   .then(response => response.json())
   .then(data => {
