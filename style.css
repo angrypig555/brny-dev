@@ -1,0 +1,24 @@
+html, body {
+    font-family: 'Comic Sans MS', cursive;
+    margin: 0px;
+    padding: 0px;
+}
+
+#top_header {
+    background-color: rgb(23, 147, 208);
+    padding: 10px;
+    box-sizing: border-box;
+    min-height: 100%;
+}
+
+a:link, a:visited {
+    color: white;
+}
+
+#main-content {
+    margin: 8px;
+}
+
+#main-content a:visited, #main-content a:link {
+    color: rgb(23, 147, 208);
+}
