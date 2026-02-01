@@ -1,5 +1,5 @@
 html, body {
-    font-family: 'Comic Sans MS', cursive;
+    font-family: 'Comic Sans MS', monospace, Arial;
     margin: 0px;
     padding: 0px;
 }
@@ -9,6 +9,7 @@ html, body {
     padding: 10px;
     box-sizing: border-box;
     min-height: 100%;
+    border-bottom: 5px solid black;
 }
 
 a:link, a:visited {
