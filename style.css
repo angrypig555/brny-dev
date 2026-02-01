@@ -20,6 +20,11 @@ a:link, a:visited {
     margin: 8px;
 }
 
-#main-content a:visited, #main-content a:link {
+#main-content a:visited, #main-content a:link, footer a:visited, footer a:link {
     color: rgb(23, 147, 208);
+}
+footer {
+    color: lightgray;
+    font-size: small;
+    text-align: center;
 }
