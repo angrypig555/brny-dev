@@ -14,6 +14,8 @@ html, body {
 
 a:link, a:visited {
     color: white;
+    display: inline-block;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
 }
 
 #main-content {
@@ -22,9 +24,14 @@ a:link, a:visited {
 
 #main-content a:visited, #main-content a:link, footer a:visited, footer a:link {
     color: rgb(23, 147, 208);
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
 }
 footer {
     color: lightgray;
     font-size: small;
     text-align: center;
+}
+
+a:hover {
+    transform: translateY(-4px) scale(1.02);
 }
